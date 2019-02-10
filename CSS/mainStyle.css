@@ -1,0 +1,37 @@
+body {
+  margin:0px;
+  padding:0px;
+  font:11px/16px Arial, Helvetica, sans-serif;
+  background:#0C0D0D url(../images/bd_bg1px.jpg) repeat-x;
+}
+
+.Title {
+  text-align: center;
+  margin-bottom: 170px;
+  color:#ccc;
+  font-family: monospace;
+  font-size: 50pt;
+}
+
+.Title2 {
+  text-align: center;
+  color:#ccc;
+  font-family: monospace;
+  font-size: 40pt;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.content {
+  text-align: center;
+  color:#ccc;
+  font-family: monospace;
+  font-size: 20pt;
+}
+
+.content_s {
+  text-align: center;
+  color:#ccc;
+  font-family: monospace;
+  font-size: 15pt;
+}

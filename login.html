@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang = "en-GB">
+<head>
+	<meta charset = "utf-8">
+	<title>Simple Story Web Site</title>
+	<link href = "CSS/loginStyle.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+	<header class = "MainPage">
+		<p class = "title"> Stories Share Website </p>
+		</header>
+
+	<main>
+		<p class = "content"> Use Your Username and Password to Login</p>
+    <form class = "LoginForm" name = "input" action = "login.php" method = "post">
+       <p class = "content"> Username: <input type = "text" class = "Inputbox" name = "username"/> </p>
+			 <p class = "content"> Password: <input type = "password" class = "Inputbox" name = "password"/> </p>
+       <p class = "content"><input class = "button" type = "submit" value = "login" /></p>
+    </form>
+		<hr />
+
+		<p class = "content"> Do not have an account? Please register here </p>
+    <form class = "LoginForm" name = "input" action = "register.html" method = "post">
+       <p class = "content"><input class = "button" type = "submit" value = "register" /></p>
+    </form>
+		<hr />
+
+		<p class = "content"> If You Only Want to Visit this Website</p>
+		<form class = "LoginForm" name = "input" action = "visit.php" method = "post">
+			 <p class = "content"><input class = "button" type = "submit" value = "visit" /></p>
+		</form>
+  </main>
+
+</body>
+</html>

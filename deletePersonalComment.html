@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang = "en-GB">
+<head>
+	<meta charset = "utf-8">
+	<title>Delete Personal Comment</title>
+	<link href = "CSS/mainStyle.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+	<header class = "MainPage">
+
+		<p class = "Title2"> Do you want to delete personal comment? </p>
+
+		</header>
+
+	<main>
+
+		<p class = "content"> Note that all your stories and comments will be deleted if you cancel your account.</p>
+    <p class = "content ">Please provide username and password </p>
+    <form class = "deletePC" name = "input" action = "deletePersonalComment.php" method = "post">
+       <p class = "content"> Username: <input type = "text" class = "Inputbox" name = "username"/> </p>
+			 <p class = "content"> Password: <input type = "password" class = "Inputbox" name = "password"/> </p>
+       <p class = "content"> <input class = "button" type = "submit" name ="delete" value = "delete" /> </p>
+    </form>
+		<hr />
+		<p class = "content ">Return To Homepage</p>
+		<form class = "returnHome" name = "input" action = "returnToHome.php" method = "post">
+			 <p class = "content"> <input class = "button" type = "submit" name ="return" value = "return" /> </p>
+		</form>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en-GB">
+    <head>
+      <meta charset = "utf-8">
+      <title>Homepage for Stories Share Web</title>
+      <link href = "CSS/mainStyle.css" rel = "stylesheet">
+    </head>
+     <body>
+       <header class = "Homepage">
+         <p class = "title"> My Webstie</p>
+       </header>
+
+       <p class = "Title2"> My Homepage </p>
+       <hr />
+       <main>
+         <form name = "showS" action = "showStory.html" method = "post">
+           <p class = "content">Show Stories<input class = "button" type = "submit" name = "show" value = "show"></p>
+         </form>
+         <hr />
+
+
+         <form name = "saveStory" action = "writeStory.php" method = "post">
+           <p class = "content">Write Your New Stories<input class = "button" type = "submit" name = "save" value = "write"></p>
+         </form>
+         <hr />
+
+
+         <form name = "dateTime" action = "date.php" method = "post">
+           <p class = "content">Show Date<input class = "button" type = "submit" name = "date" value = "show" /></p>
+         </form>
+         <hr />
+
+
+         <form name = "searchContent" action = "search.php" method = "post">
+           <p class = "content">Search For Stories<input class = "text" type="text" name="searchContent"/>
+             <input class = "button" type = "submit" name = "search" value = "search" /></p>
+         </form>
+         <hr />
+
+
+         <form name = "showProfile" action = "showProfile.php" method = "post">
+           <p class = "content">Show Personal Profile<input class = "text" type="text" name="searchUser"/>
+             <input class = "button" type = "submit" name = "profile" value = "show" /></p>
+         </form>
+         <hr />
+
+
+         <form name = "changeUsername" action = "changeUsername.html" method = "post">
+           <p class = "content">Change Username<input class = "button" type = "submit" name = "new" value = "change" /></p>
+         </form>
+         <hr />
+
+         <form name = "changePassword" action = "changePassword.html" method = "post">
+           <p class = "content">Change Password<input class = "button" type = "submit" name = "new" value = "change" /></p>
+         </form>
+         <hr />
+
+
+         <form name = "logout" action = "logout.php" method = "post">
+           <p class = "content"> Log Out <input class = "button" type = "submit" name = "logout" value = "logout" /></p>
+         </form>
+         <hr />
+
+
+         <form name = "deleteComment" action = "deletePersonalComment.html" method = "post">
+           <p class = "content">Delete All Personal Comments<input class = "button" type = "submit" name = "delete" value = "delete" /></p>
+         </form>
+       </main>
+       </body>
+
+</html>

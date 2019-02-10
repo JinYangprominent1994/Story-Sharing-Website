@@ -1,0 +1,17 @@
+body {
+  margin:0px;
+  padding:0px;
+  font:11px/16px Arial, Helvetica, sans-serif;
+}
+
+.content {
+  font-size: 20pt;
+}
+
+.Title {
+  text-align: center;
+  margin-bottom: 170px;
+  color:#ccc;
+  font-family: monospace;
+  font-size: 50pt;
+}
